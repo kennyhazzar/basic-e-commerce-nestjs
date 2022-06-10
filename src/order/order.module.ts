@@ -7,6 +7,7 @@ import { Users } from 'src/auth/user.entity';
 import { OrderService } from './order.service';
 import { CartService } from 'src/cart/cart.service';
 import { ProductService } from 'src/product/product.service';
+import { OrderController } from './order.controller';
 
 @Module({
   imports: [
